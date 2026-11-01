@@ -13,17 +13,17 @@ const DOCS_SIDEBAR = [
       { label: "Creating flows", slug: "docs/flows" },
       { label: "Generating content", slug: "docs/models" },
       { label: "Tool calling", slug: "docs/tool-calling" },
-      { label: "Implementing Agentic Patterns", slug: "docs/agentic-patterns" },
+      { label: "Building AI workflows", slug: "docs/agentic-patterns" },
       { label: "Managing prompts with Dotprompt", slug: "docs/dotprompt" },
       { label: "Passing information through context", slug: "docs/context" },
       { label: "Pause generation using interrupts", slug: "docs/interrupts" },
       { label: "Creating persistent chat sessions", slug: "docs/chat" },
       { label: "Model Context Protocol (MCP)", slug: "docs/model-context-protocol" },
-      { label: "Retrieval-augmented generation (RAG)", slug: "docs/rag" },
+      { label: "Answers from your documents", slug: "docs/rag" },
       { label: "Building multi-agent systems", slug: "docs/multi-agent" },
       { label: "Error types", slug: "docs/error-types" },
       { label: "Evaluation", slug: "docs/evaluation" },
-      { label: "Local observability and metrics", slug: "docs/local-observability" },
+      { label: "Local service status", slug: "docs/local-observability" },
     ],
   },
   {
@@ -105,11 +105,11 @@ const DOCS_SIDEBAR = [
     ],
   },
   {
-    label: "Observability and Monitoring",
+    label: "Service status",
     items: [
       { label: "Getting started", slug: "docs/observability/getting-started" },
       { label: "Authentication", slug: "docs/observability/authentication" },
-      { label: "Telemetry Collection", slug: "docs/observability/telemetry-collection" },
+      { label: "Service data", slug: "docs/observability/telemetry-collection" },
       { label: "Advanced Configuration", slug: "docs/observability/advanced-configuration" },
       { label: "Troubleshooting", slug: "docs/observability/troubleshooting" },
       { label: "Google Cloud Plugin", slug: "docs/integrations/google-cloud" },
@@ -128,3 +128,4 @@ const DOCS_SIDEBAR = [
 export const sidebar = [
   ...DOCS_SIDEBAR,
 ];
+
